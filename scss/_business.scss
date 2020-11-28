@@ -1,0 +1,636 @@
+.business__title {
+  font-weight: 700;
+  margin-bottom: 40px;
+  line-height: 120%;
+  @include adaptiv-font(36, 29);
+}
+
+.business {
+  .header__subttle {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 170%;
+    max-width: 500px;
+  }
+
+  .header__punkts {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 130%;
+    max-width: 500px;
+
+    li {
+      margin: 30px 0;
+    }
+  }
+
+  .header__info {
+    margin-top: 45px;
+  }
+}
+
+.advantages__treu1 {
+  position: absolute;
+  bottom: 13%;
+  right: 100px;
+  z-index: -1;
+}
+
+.advantages {
+  position: relative;
+  background: #ffffff;
+
+  .global__title {
+    background: #fff;
+    padding: 20px 40px;
+    line-height: 130%;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    background: #F8F7F8;
+    padding: 25px;
+    margin: 80px 0;
+  }
+
+  &__inner {
+    display: flex;
+    background: #fff;
+    padding: 0px 15px 25px 40px;
+  }
+
+  &__advenage {
+    width: 25%;
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    line-height: 140%;
+    max-width: 233px;
+    margin-top: 15px;
+    padding-right: 10px;
+  }
+}
+
+.aboutus-bus__teu1 {
+  position: absolute;
+  bottom: 25%;
+  left: 100px;
+}
+
+.aboutus-bus {
+  overflow: hidden;
+
+  .global__title {}
+
+  .aboutus__text {
+    margin-left: 0;
+    margin-top: 130px;
+    padding-right: 40px;
+    padding-bottom: 0;
+  }
+
+  .aboutus__wrapper {
+    margin-top: -30px;
+  }
+
+  .aboutus__image img {
+    border-radius: 100px 0 0 50px;
+  }
+}
+
+
+// ==========================================aboutus__slide
+
+
+.pagingInfo-business {
+  position: absolute;
+  bottom: 10px;
+  right: 90px;
+  font-size: 16px;
+  color: #1D262D;
+  font-weight: 500;
+
+  &::first-letter {
+    font-size: 22px;
+    font-weight: 700;
+  }
+}
+
+.container__aboutus-business {
+  position: relative;
+}
+
+.aboutus-business {
+  background: #Fff;
+}
+
+.treu9 {
+  position: absolute;
+  bottom: 20%;
+  left: 70px;
+}
+
+.aboutus__slider {
+  display: flex;
+  position: relative;
+  outline: none;
+  margin-top: -145px;
+
+  .slick-list {
+    overflow: hidden;
+    outline: none;
+  }
+
+  .slick-arrow {
+    bottom: 0;
+    right: 0;
+    background-image: url(../image/icons/right.png);
+    width: 55px;
+    height: 55px;
+    z-index: 1000 !important;
+  }
+
+  .slick-arrow.slick-prev {
+    right: 118px;
+    bottom: -2px;
+
+  }
+
+  .slick-track {
+    display: flex;
+    outline: none;
+  }
+
+  .slick-arrow.slick-prev.slick-disabled {
+    background-image: url(../image/icons/left.png);
+    transform: none;
+  }
+
+  .slick-arrow.slick-next.slick-disabled {
+    background-image: url(../image/icons/left.png);
+    transform: rotate(180deg);
+  }
+
+  .aboutus__stap {
+    background: #1D262D;
+    border-radius: 0 100px 20px 0;
+    width: 76%;
+    margin-left: 24%;
+    padding: 20px 40px 30px 40px;
+    transform: translateY(125px);
+    position: relative;
+    z-index: 10;
+  }
+
+  .aboutus__text {
+    margin-top: 120px;
+  }
+
+  .aboutus__stap-title {
+    color: #fff;
+    font-weight: 900;
+    line-height: 105%;
+    font-size: 50px;
+  }
+
+  .aboutus__stap-subtitle {
+    color: #fff;
+    font-size: 24px;
+  }
+}
+
+.aboutus-business__title {
+  max-width: 250px;
+}
+
+.aboutus__slide {
+  outline: none;
+}
+
+// ==========================================aboutus__slide
+// ==========================================team
+
+.team {
+  background-image: url(../image/backgounds_fon/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 100px 0;
+  position: relative;
+
+  &__treu {
+    position: absolute;
+    top: 10%;
+    right: 70px;
+  }
+
+  &__slider {
+    position: relative;
+
+    .slick-list {
+      overflow: hidden;
+      outline: none;
+    }
+
+    .slick-arrow {
+      top: -20px;
+      right: 0;
+    }
+
+    .slick-arrow.slick-prev {
+      right: 100px;
+    }
+
+    .slick-track {
+      display: flex;
+      outline: none;
+
+    }
+  }
+
+  .global__title {
+    color: #fff;
+  }
+
+  &__slide {
+    outline: none;
+  }
+
+  &__wrapper-1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 11%;
+    margin-top: 50px;
+  }
+
+  &__wrapper-3 {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  &__inner {
+    position: relative;
+    height: 365px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+
+  &__inner-2 {
+    width: 23%;
+  }
+
+  &__inner-1 {
+    width: 27%;
+    height: 320px;
+  }
+
+  &__photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+
+  &__box {
+    position: relative;
+    z-index: 3;
+    background: $main;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px 5px 0 0;
+    font-size: 16px;
+    line-height: 110%;
+  }
+
+  &__name {}
+
+  &__status {
+    font-size: 18px;
+  }
+
+  &__wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+    margin-top: -230px;
+  }
+}
+
+// ==========================================team
+
+
+
+
+
+
+@media (max-width:1590px) {
+  .aboutus-bus__teu1 {
+    bottom: 6%;
+    left: 15px;
+  }
+
+  .team__treu {
+    top: 20%;
+    right: 10px;
+  }
+}
+
+@media (max-width:1400px) {
+  .aboutus-bus__teu1 {
+    display: none;
+  }
+
+  .team__treu{
+    display: none;
+  }
+}
+
+
+@media (max-width:1110px) {
+  .aboutus-bus .aboutus__wrapper {
+    margin-top: 30px;
+  }
+
+  .aboutus-bus .aboutus__text {
+    margin-top: 15px;
+  }
+
+  .treu9 {
+    display: none;
+  }
+
+  .aboutus__image img {}
+}
+
+
+
+@media (max-width:970px) {
+  .advantages__treu1 {
+    display: none;
+  }
+
+  .business__title {
+    margin-bottom: 15px;
+  }
+
+  .business .header__punkts li {
+    margin: 25px 0;
+  }
+
+  .business {
+    .header__btn-body {
+      margin-top: 10px;
+    }
+  }
+
+  .aboutus__slider .aboutus__stap {
+    width: 39%;
+    margin-left: 61%;
+    padding: 13px 40px 10px 35px;
+    transform: translateY(91px);
+    border-radius: 41px 0 0 13px;
+  }
+
+  .aboutus__slider .aboutus__text {
+    margin-top: 90px;
+    margin-left: 25px;
+    padding-bottom: 80px;
+  }
+
+  .aboutus__slider {
+    margin-top: -100px;
+  }
+
+  .aboutus__slider .aboutus__stap-title {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  .aboutus__slider .aboutus__stap-subtitle {
+    line-height: 110%;
+  }
+}
+
+@media (max-width:920px) {
+  .aboutus__image {
+    height: 322px;
+    width: 322px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .aboutus-bus .aboutus__text {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width:860px) {
+  .advantages__inner {
+    flex-wrap: wrap;
+  }
+
+  .advantages__advenage {
+    width: 50%;
+    margin: 13px 0;
+  }
+
+}
+
+@media (max-width:850px) {
+
+  .team__inner-2,
+  .team__inner-1 {
+    width: 31%;
+  }
+
+  .team__inner {
+    height: 320px;
+  }
+
+  .team__wrapper-3 {
+    margin-top: -150px;
+    position: relative;
+    z-index: 5;
+
+    .team__inner {
+      width: 37%;
+    }
+  }
+}
+
+@media (max-width:830px) {
+  .business .header__punkts li {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width:690px) {
+  .aboutus__image {
+    height: 292px;
+    width: 266px;
+  }
+
+  .aboutus__slider .aboutus__image {
+    margin-top: 65px;
+
+    img {
+      border-radius: 0 5px 5px 0;
+    }
+  }
+
+  .aboutus__slider .aboutus__stap-title {
+    font-size: 27px;
+  }
+
+  .aboutus__slider .aboutus__stap-subtitle {
+    font-size: 19px;
+    white-space: nowrap;
+  }
+
+  .aboutus__slider .aboutus__stap {
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    width: initial;
+  }
+
+  .aboutus__sliders .aboutus__slider {
+    margin-top: -75px;
+  }
+
+  .aboutus__stap-title {
+    order: -1;
+  }
+
+  .aboutus__slider .aboutus__stap-subtitle {
+    margin-left: 20px;
+    margin-top: 2px;
+  }
+
+  .aboutus__slider .aboutus__text {
+    padding-bottom: 60px;
+    margin-top: 70px;
+  }
+
+  .aboutus__slider {
+    margin-top: -85px;
+  }
+}
+
+@media (max-width:630px) {
+
+  .advantages__text {
+    padding-right: 15px;
+  }
+
+  .advantages__inner {
+    padding: 0 0 25px 0;
+  }
+
+  .advantages .global__title {
+    padding: 20px 00px 10px;
+  }
+
+  .advantages__wrapper {
+    padding: 0;
+    margin: 25px 0;
+  }
+}
+
+@media (max-width:550px) {
+  .aboutus__image {
+    height: initial;
+    width: 100%;
+
+  }
+
+  .team {
+    padding: 50px 0 100px 0;
+  }
+
+  .team__slider {
+    margin-top: 30px;
+  }
+
+  .team__slider .slick-arrow {
+    right: initial;
+    left: 0;
+  }
+
+  .team__slider .slick-arrow.slick-next {
+    left: 80px;
+  }
+
+  .team__status {
+    font-size: 17px;
+  }
+
+  .aboutus-bus .aboutus__wrapper {
+    margin-top: 10px;
+  }
+
+  .aboutus__slider .aboutus__text {
+    margin-top: 00px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:530px) {
+  .business .header__info {
+    padding-right: 0;
+  }
+
+  .team__inner-1 {
+    width: 40%;
+  }
+
+  .team__inner-2 {
+    width: 32%;
+  }
+
+  .team__wrapper-3 .team__inner {
+    width: 44%;
+  }
+
+  .team__wrapper-2 {
+    margin-top: -190px;
+  }
+}
+
+@media (max-width:445px) {
+  .advantages__advenage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .aboutus__slider .aboutus__stap {
+    padding: 10px 36px 5px 14px;
+  }
+
+  .aboutus__slider .aboutus__stap-title {
+    font-size: 23px;
+  }
+}

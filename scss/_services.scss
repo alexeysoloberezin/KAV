@@ -1,0 +1,24 @@
+.header-min{
+  height: 105px;
+  min-height: initial;
+  padding: 0;
+  .treu1, .cube1 , .dots1, .dots2, .dots2-mob{
+    display: none;
+  }
+ 
+}
+.services{ 
+  &__block-mob{
+    display: none;
+  }
+}
+.services-all{
+  padding-top: 30px;
+}
+@media (max-width:550px){
+  .services{
+    &__block-mob{
+      display: flex;
+    }
+  }
+}
