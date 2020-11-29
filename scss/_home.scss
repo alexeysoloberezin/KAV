@@ -909,6 +909,20 @@
     padding: 45px 0;
   }
 }
+@media (max-width:470px){
+  .services__inner{
+    width: 111% !important;
+    margin-top: -15px;
+  }
+  .services__wrapper{
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .services__subtitle{
+    font-size: 17px;
+  }
+  
+}
 
 @media (max-width:400px) {
   .services {
@@ -923,11 +937,7 @@
     .lvlh3 {
       height: 190px;
     }
-
-    &__subtitle {
-      font-size: 15px;
-      padding: 10px;
-    }
+    
 
     &__btn {
       margin: 10px auto 0;

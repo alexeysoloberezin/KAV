@@ -30,18 +30,13 @@ $(document).ready(function(){
   // --------filter
 
   //   ------------Слайдеры 
-  $('.header__slider_1').slick({
+  $('.header__slider').slick({
     infinite: false,
     slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: 'progressive',
-  });
-  $('.header__slider_2').slick({
-    infinite: false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    lazyLoad: 'progressive',
-  });
+    slidesToScroll: 1,    
+    swipe: false,    
+
+  });  
   var $status = $('.pagingInfo');
   var $slickElement = $('.portfolio__slides');
 
