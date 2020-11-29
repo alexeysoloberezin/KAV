@@ -26,6 +26,22 @@
   }
 }
 
+@media (max-width:860px){
+  .header__silde-bg-business{
+    height: 450px;
+  }
+}
+@media (max-width:760px){
+  .header__silde-bg-business{
+    height:350px;
+  }
+}
+@media (max-width:660px){
+  .header__silde-bg-business{
+    height:initial;
+  }
+}
+
 // @media (max-width:470px){
 //   .services__inner{
 //     width: 109% !important;
