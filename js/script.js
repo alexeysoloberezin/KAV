@@ -1,6 +1,17 @@
 
 $(document).ready(function(){  
  
+  $('.header__btn').click(function(){
+    $('.window').addClass('window-active');
+    $('.popup-call').addClass('popup-call-active');
+    $('.header__nav').removeClass('header__nav-active');
+  });
+  $('.popup-call__close').click(function(){
+    $('.window').removeClass('window-active');
+    $('.popup-call').removeClass('popup-call-active');
+  });
+
+
   $("body").on('click', '[href*="#"]', function(e){
     var fixed_offset = 100;
       $('html,body').stop().animate({ scrollTop: $(this.hash).offset().top - fixed_offset }, 1000);
@@ -110,5 +121,32 @@ $(document).ready(function(){
     swipe: false,    
     lazyLoad: 'progressive',    
   });
+  $('.similar__slider').slick({
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    swipe: false,    
+    lazyLoad: 'progressive',    
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2,          
+          slidesToScroll: 2,
+          swipe: true,
+        }
+      },
+      {
+        breakpoint: 540,
+        settings: {
+          slidesToShow: 1,          
+          slidesToScroll: 1,
+          swipe: true,
+         
+        }
+      }
+    ]
+  });
+  
   //   ------------Слайдеры
 });
